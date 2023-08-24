@@ -1,7 +1,7 @@
 {
     "name": "بوت ميوزك مجاني",
-    "description": "سورس ميوزك شهم مجااني للكل تحياتي الكم عمكم شهم",
-    "logo": "https://telegra.ph/file/b10a558220339572d7f42.jpg",
+    "description":" سورس ميوزك  مجااني للكل تحياتي الكم  ",
+    "logo": "https://telegra.ph/file/1bc2985173e1ca350622c.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -12,12 +12,12 @@
     ],
     "env": {
       "API_ID": {
-        "description": " ضـع ايبي ايدي احصل علية من هنا https://my.telegram.org",
+        "description": " ضـع ايبي ايدي احصل علية من هنا ",
         "value": "",
         "required": true
       },
       "API_HASH": {
-        "description": " ضـع ايبي هاش احصل علية من هنا https://my.telegram.org",
+        "description": " ضـع ايبي هاش احصل علية من هنا ",
         "value": "",
         "required": true
       },
@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "ضـع رابـط جـروب الـدعـم",
-        "value": "https://t.me/Shahm_Sport",
+        "value": "https://t.me/VVR_ri",
         "required": false
       }
     },
