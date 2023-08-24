@@ -37,7 +37,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="", url="https://t.me/SH_AH_M"
+            text="", url="https://t.me/sosvvt"
         ),
         InlineKeyboardButton(text="◈ مالك البوت ◈", user_id=config.OWNER_ID),
     ],
@@ -57,7 +57,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="◈ المطور ◈", url="https://t.me/SH_AH_M"
+            text="◈ المطور ◈", url="https://t.me/en_jq"
         ),
         InlineKeyboardButton(text="◈ مالك البوت ◈", user_id=config.OWNER_ID),
     ],
@@ -83,7 +83,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="◈ السورس ◈", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="◈ السورس ◈", url=config.SOURCE_VIRUS)],
     [
         InlineKeyboardButton(text="◈ عودة ◈", callback_data="Shahm_help"),
         InlineKeyboardButton(text="◈ اغلاق ◈", callback_data="close"),
