@@ -25,7 +25,8 @@ from ShahmMusic.Modules import ALL_MODULES
 async def fallen_startup():
     LOGGER.info("[•] Loading Modules...")
     for module in ALL_MODULES:
-        importlib.import_module("ShahmMusic.Modules." + module)
+        importlib.import_module("virus
+        Music.Modules." + module)
     LOGGER.info(f"[•] Loaded {len(ALL_MODULES)} Modules.")
 
     LOGGER.info("[•] Refreshing Directories...")
@@ -38,7 +39,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ بــــوت شهم الجديد ✯\n\n⌔︙ الايدي: `{BOT_ID}`\n⌔︙ الاسم : {BOT_NAME}\n⌔︙ الاسم : @{BOT_USERNAME}",
+            f"✯ بــــوت sos الجديد ✯\n\n⌔︙ الايدي: `{BOT_ID}`\n⌔︙ الاسم : {BOT_NAME}\n⌔︙ الاسم : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -48,11 +49,11 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ بــــوت شهم الجديد ✯\n\n⌔︙ الايدي: `{ASS_ID}`\n⌔︙ الاسم : {ASS_NAME}\n⌔︙ الاسم : @{ASS_USERNAME}",
+            f"✯ بــــوت sos الجديد ✯\n\n⌔︙ الايدي: `{ASS_ID}`\n⌔︙ الاسم : {ASS_NAME}\n⌔︙ الاسم : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
-            f"{ASS_NAME} فشل ارسال رساله @{SUNAME}, يرجى التحقق ."
+            f"{ASS_NAME} فشل ارسال رساله @{en_jq}, يرجى التحقق ."
         )
 
     await app2.send_message(BOT_USERNAME, "/start")
