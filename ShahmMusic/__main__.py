@@ -25,7 +25,7 @@ from ShahmMusic.Modules import ALL_MODULES
 async def fallen_startup():
     LOGGER.info("[•] Loading Modules...")
     for module in ALL_MODULES:
-        importlib.import_module("virus
+        importlib.import_module("virus")
         Music.Modules." + module)
     LOGGER.info(f"[•] Loaded {len(ALL_MODULES)} Modules.")
 
