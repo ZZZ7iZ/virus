@@ -43,7 +43,7 @@ async def fallen_startup():
         )
     except:
         LOGGER.error(
-            f"{BOT_NAME} failed to send message at @{SUNAME}, please go & check."
+            f"{BOT_NAME} failed to send message at @{en_jq}, please go & check."
         )
 
     try:
