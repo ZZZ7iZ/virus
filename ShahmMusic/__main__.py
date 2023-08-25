@@ -38,7 +38,7 @@ async def fallen_startup():
     try:
         await app.send_message(
             SUNAME,
-            f"✯ بــــوت شهم الجديد ✯\n\n⌔︙ الايدي: `{BOT_ID}`\n⌔︙ الاسم : {BOT_NAME}\n⌔︙ الاسم : @{BOT_USERNAME}",
+            f"✯ بــــوت فايروس الجديد ✯\n\n⌔︙ الايدي: `{BOT_ID}`\n⌔︙ الاسم : {BOT_NAME}\n⌔︙ الاسم : @{BOT_USERNAME}",
         )
     except:
         LOGGER.error(
@@ -48,7 +48,7 @@ async def fallen_startup():
     try:
         await app2.send_message(
             SUNAME,
-            f"✯ بــــوت شهم الجديد ✯\n\n⌔︙ الايدي: `{ASS_ID}`\n⌔︙ الاسم : {ASS_NAME}\n⌔︙ الاسم : @{ASS_USERNAME}",
+            f"✯ بــــوت فايروس الجديد ✯\n\n⌔︙ الايدي: `{ASS_ID}`\n⌔︙ الاسم : {ASS_NAME}\n⌔︙ الاسم : @{ASS_USERNAME}",
         )
     except:
         LOGGER.error(
