@@ -35,7 +35,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="◈ التنصيب بوت ◈", url="t.me/IIIlIIv"
+            text="◈ التنصيب بوت ◈", url="t.me/IIIlIIv",
         InlineKeyboardButton(
             text="◈ السورس ◈", url="t.me/H_M_Dr"
     ],
