@@ -13,37 +13,37 @@
     "env": {
       "API_ID": {
         "description": " ضـع ايبي ايدي احصل علية من هنا ",
-        "value": "",
+        "value": "16228908",
         "required": true
       },
       "API_HASH": {
         "description": " ضـع ايبي هاش احصل علية من هنا ",
-        "value": "",
+        "value": "1e0ebcbec6fb07e5064f54797e0cadb5",
         "required": true
       },
       "BOT_TOKEN": {
         "description": "ضـع تـوكـن بـوتـك هـنـا",
-        "value": "",
+        "value": "6471438931:AAGZ7St8Gpj-IztGwEeGQDSqYwCjeNWbveM",
         "required": true
       },
       "OWNER_ID": {
         "description": "ضـع ايـديـك هـنـا",
-        "value": "",
+        "value": "5012406813",
         "required": true
       },
       "SESSION": {
         "description": "ضـع جلسة البايروجرام ",
-        "value": "",
+        "value": "BAAYXQOMJLh_sLS_ThSbIKMkOEUIVED4TZQbXAgDK02p-m2qYRySGIWHNr46o36esjVop9hQehzgtjD3L_1WG2muDpQSi2KwncrHzYRC-ztqisvY4Ewo1KhKO1NP1p04oztnnizCktPnLqS0ln2G5JYZqeG8LOXtNMXm1JkLpPLhYwXROPj5I7OMvmhyBTnakkjIHVjNGTTsgUxCwm0EuTpVBCoF3jfsncvhAcu8pweMJ4ADXiStRS2qCA1CPxUGavv419M8d8djrPur7c40X6kXj2Cq8-RMOxjwqK_08_f4MSV4Ko8bnDpAutuelnksVD7vgXoPEBfvtueWdo7Ks2eQAAAAAWf0P5wA",
         "required": true
       },
       "SUDO_USERS": {
         "description": "ضـع ايـدي الـحـسـاب الـمـسـاعـد",
-        "value": "",
+        "value": "6039027612",
         "required": true
       },
       "SUPPORT_CHAT": {
-        "description": "ضـع رابـط جـروب الـدعـم",
-        "value": "https://t.me/VVR_ri",
+        "description": "ضـع قناة السورس",
+        "value": "https://t.me/H_M_Dr",
         "required": false
       }
     },
