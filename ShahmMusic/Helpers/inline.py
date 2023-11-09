@@ -68,14 +68,14 @@ gp_buttons = [
 
 helpmenu = [
     [
-        InlineKeyboardButton(
-            text="◈ الاوامر ◈",
+  InlineKeyboardButton(
+            text="◈ اوامر الشتغيل ◈",
             callback_data="Shahm_cb help",
         )
     ],
     [
-        InlineKeyboardButton(text="◈ اوامࢪ المطور ◈", callback_data="Shahm_cb sudo"),
-        InlineKeyboardButton(text="◈ اوامر المالك ◈", callback_data="Shahm_cb owner"),
+        InlineKeyboardButton(text="◈ اوامࢪ التفعيل ◈", callback_data="Shahm_cb sudo"),
+        InlineKeyboardButton(text="◈ اوامر المطور ◈", callback_data="Shahm_cb owner"),
     ],
     [
         InlineKeyboardButton(text="◈ عودة ◈", callback_data="Shahm_home"),
