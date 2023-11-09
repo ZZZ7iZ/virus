@@ -32,14 +32,16 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="◈ الاوامر ◈", callback_data="Shahm_help")],
     [
-        InlineKeyboardButton(text="", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(
+            InlineKeyboardButton(
+            text="◈ التنصيب بوت ◈", url="t.me/IIIlIIv"
+        InlineKeyboardButton(text="◈ السورس ◈", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
             text="", url="https://t.me/SH_AH_M"
         ),
-        InlineKeyboardButton(text="◈ مالك البوت ◈", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="◈ المطور ◈", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -57,9 +59,9 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="◈ المطور ◈", url="https://t.me/en_jq"
+            text="", url="https://t.me/en_jq"
         ),
-        InlineKeyboardButton(text="◈ مالك البوت ◈", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="◈ المطور ◈", user_id=config.OWNER_ID),
     ],
 ]
 
