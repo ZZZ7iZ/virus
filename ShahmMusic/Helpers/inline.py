@@ -34,10 +34,8 @@ pm_buttons = [
         InlineKeyboardButton(text="◈ الاوامر ◈", callback_data="Shahm_help")
     ],
     [
-        InlineKeyboardButton(
-            text="◈ التنصيب بوت ◈", url="t.me/IIIlIIv",
-        InlineKeyboardButton(
-            text="◈ السورس ◈", url="t.me/H_M_Dr"
+        InlineKeyboardButton(text="◈ لتنصيب بوت ◈", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="◈ السورس ◈", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
