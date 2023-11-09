@@ -30,12 +30,14 @@ pm_buttons = [
             url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
         )
     ],
-    [InlineKeyboardButton(text="◈ الاوامر ◈", callback_data="Shahm_help")],
+    [
+        InlineKeyboardButton(text="◈ الاوامر ◈", callback_data="Shahm_help")
+    ],
     [
         InlineKeyboardButton(
-            InlineKeyboardButton(
             text="◈ التنصيب بوت ◈", url="t.me/IIIlIIv"
-        InlineKeyboardButton(text="◈ السورس ◈", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(
+            text="◈ السورس ◈", url="t.me/H_M_Dr"
     ],
     [
         InlineKeyboardButton(
